@@ -1,0 +1,17 @@
+create table test(usn integer primary key,name varchar(10),phoneno integer,branch varchar(10));
+insert into test values(100,'Aish',9089,'CS');
+insert into test values(101,'Simi',9765,'EC');
+insert into test values(102,'Sakshi',5432,'CS');
+insert into test values(103,'Vaibhavi',6754,'IS');                                                           
+
+
+select * from test;
+
+
+usn	name	phoneno	branch
+100	Aish	9089	CS
+101	Simi	9765	EC
+102	Sakshi	5432	CS
+103	Vaibhav	6754	IS
+
+DB Fiddle – Crafted with ♥ by Status200 in the United Kingdom.
