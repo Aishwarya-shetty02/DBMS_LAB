@@ -1,0 +1,20 @@
+create table BOOK(Book_id integer primary key,Title varchar(20),Publisher_Name varchar(20),Pub_Year integer);
+insert into BOOK values(233,'DS','Rachita',2000);
+insert into BOOK values(344,'DAA','AAA',2004);
+insert into BOOK values(110,'CO','Aishwarya',1985);
+insert into BOOK values(787,'ADE','Reshma',1990);
+insert into BOOK values(636,'CNS','Nruthya',2001);
+create table BOOK_COPIES(Book_id integer,Branch_id integer,No_of_Copies integer, primary key(Book_id,Branch_id));
+
+
+          select * from BOOK ;
+            
+           
+ Book_id   Title   Publisher_Name   Pub_Year 
+ 
+  233       DS      Rachita          2000     
+  344       DAA     AAA              2004     
+  110       CO      Aishwarya        1985     
+  787       ADE     Reshma           1990     
+  636       CNS     Nruthya          2001     
+
